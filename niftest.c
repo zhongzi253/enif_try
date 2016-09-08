@@ -33,7 +33,7 @@ static ERL_NIF_TERM nif_findPrime(ErlNifEnv *env, int argc, const ERL_NIF_TERM a
     return res;  
   }  
 }  
-/*
+
 static ERL_NIF_TERM nif_binfunc(ErlNifEnv* env, int argc, const ERL_NIF_TERM argv[])
 {
   ErlNifBinary bin;
@@ -69,7 +69,7 @@ static ERL_NIF_TERM nif_create_tuple(ErlNifEnv *env, int argc, const ERL_NIF_TER
 
 }
 
-*/
+
 static ErlNifFunc nif_funcs[] = {  
   {"findPrime", 1, nif_findPrime}
  // {"create_tuple", 3, nif_create_tuple}
